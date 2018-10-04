@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 1, 2018, 12:27:37 PM
+    Author     : josec
+*/
+
+div#board_image{
+    background: url("board.jpg") no-repeat;
+    width: 1100px;
+    height: 1000px;
+
+}
+body{
+    background-color:black;
+}
+
+
+#Table_ScoreWrap{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+
+.Table_ScorePos {
+  position:absolute;
+  background-color: rgb(139, 179, 211);
+      left:1105px;
+}
+
+#board_LastMiddleRow{
+    top: 880px;
+    left:153px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 810px;
+    height: 127px;
+    color: red;
+    font-size: 30px;
+
+}
+
+#board_BottomRightCorner{
+    top: 880px;
+    left:966px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 142px;
+    height: 127px;
+    color: red;
+    font-size: 30px;
+
+}
+
+#board_BottomLeftCorner{
+    top: 880px;
+    left:9px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 142px;
+    height: 127px;
+    color: red;
+    font-size: 30px;
+
+}
+
+#board_MiddleRows{
+    top: 133px;
+    left:9px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 1170px;
+    height: 740px;
+    color: red;
+    font-size: 30px;
+    
+   
+}
+
+#board_TopLeftCorner{
+    top: 10px;
+    left:9px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 142px;
+    height: 127px;
+    color: red;
+    font-size: 30px;
+
+}
+
+#board_TopMiddleRow{
+    top: 10px;
+    left:153px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 810px;
+    height: 127px;
+    color: red;
+    font-size: 30px;
+}
+
+#board_TopRightCorner{
+    top: 10px;
+    left:966px;
+    position:absolute;
+    table-layout: fixed;    
+    width: 142px;
+    height: 127px;
+    color: red;
+    font-size: 30px;
+
+}
