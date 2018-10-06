@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+    Created on : Sep 18, 2018, 6:28:09 PM
+    Author     : Head First Javascript Example Project
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monopoly Simulator</title>
+        <link rel="stylesheet" type="text/css" href="BoardSheet.css">
+        <script src="Model.js">         </script>
+        <script src="View.js">          </script>
+        <script src="Controller.js">    </script>
+        <script src="HandlersInit.js">  </script>
+    </head>
+    
+    <body>
+        <div id="board">
+            <div id="messageArea"></div>
+            <table>
+                <tr>
+                    <td id="00" class="bigtile"></td> <td id="01" class="tilev"></td> 
+                    <td id="02" class="tilev"></td><td id="03" class="tilev"></td> <td id="04" class="tilev"></td> 
+                    <td id="05" class="tilev"></td><td id="06" class="tilev"></td> <td id="07" class="tilev"></td> 
+                    <td id="08" class="tilev"></td><td id="09" class="tilev"></td> <td id="10" class="bigtile"></td> 
+                </tr>
+                <tr>
+                    <td id="39" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="11" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="38" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="12" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="37" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="13" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="36" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="14" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="35" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="15" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="34" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="16" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="33" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="17" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="32" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="18" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="31" class="tileh"></td> <td id="01"></td> 
+                    <td id="02"></td><td id="03"></td> <td id="04"></td> 
+                    <td id="05"></td><td id="06"></td> <td id="07"></td> 
+                    <td id="08"></td><td id="09"></td> <td id="19" class="tileh"></td> 
+                </tr>
+                <tr>
+                    <td id="30" class="bigtile"></td> <td id="29" class="tilev"></td> 
+                    <td id="28" class="tilev"></td><td id="27" class="tilev"></td> <td id="26" class="tilev"></td> 
+                    <td id="25" class="tilev"></td><td id="24" class="tilev"></td> <td id="23" class="tilev"></td> 
+                    <td id="22" class="tilev"></td><td id="21" class="tilev"></td> <td id="20" class="bigtile"></td> 
+                </tr>
+            </table>
+            <form>
+                <input type="text" id="guessInput" placeholder="For R0,C0--input: 00">
+                <input type="button" id="fireButton"  value="Place">
+            </form>
+        </div>
+    </body>
+</html>

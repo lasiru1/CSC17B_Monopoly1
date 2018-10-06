@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+div#board {
+    position: relative;
+    width: 1800px;
+    height: 1520px;
+    margin: auto;
+    background: url("monopoly_board.jpg") no-repeat;
+    /*
+    put board here and change size of board or etc
+    */
+}
+
+div#messageArea {
+    position: absolute;
+    bottom: 10px;
+    border: 5px solid #8AC007;
+    color: rgb(83, 175, 19);
+    font-size: "large";
+}
+/*
+.hit {
+    background: url("hit.png") no-repeat center center;
+}
+.miss {
+    background: url("O.png") no-repeat center center;
+}
+*/
+
+.placeX {
+    background: url("X.png") no-repeat center center;
+    background-size: contain;
+}
+.placeO {
+    background: url("O.png") no-repeat center center;
+    background-size: contain;
+}
+
+table {
+    border-spacing: 0px; 
+    /* could use border-collapse instead */
+    /* border-collapse: collapse; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+td {
+    width: 119px;
+    height: 122px;
+    /*Non relevant tiles*/
+}
+td.bigtile{
+    /*four corner tiles*/
+    width: 200px;
+    height: 200px;
+}
+td.tilev{
+    /*vertical movement tiles*/
+    width: 40px;
+    height: 175px;
+}
+td.tileh{
+    /*horizontal movement tiles*/
+    width: 180px;
+    height: 40px;
+}
+form {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
