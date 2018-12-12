@@ -4,7 +4,6 @@ Monopoly using C++ and Qt
   
 Team:  
 Jose Cervantes  
-Antonio Gines  
 Nick Kobe  
 Uriel Salazar  
 Nick Schwartz  
